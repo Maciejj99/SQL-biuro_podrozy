@@ -17,8 +17,8 @@ Przykłady zapytań dla różnych zastosowań – raportów sprzedaży, sprawdza
 ```sql
 -- Informacje o klientach:
 SELECT * FROM Klient;
-![image](https://github.com/user-attachments/assets/fc0758dc-c52b-4198-8e50-4bc2252a9aab)
 ```
+![image](https://github.com/user-attachments/assets/fc0758dc-c52b-4198-8e50-4bc2252a9aab)
 ```sql
 -- Klienci i ich rezerwacje:
 SELECT k.id_klienta, k.imie, k.nazwisko, r.id_rezerwacji, r.liczba_miejsc
